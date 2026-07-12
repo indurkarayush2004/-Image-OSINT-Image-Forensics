@@ -241,3 +241,19 @@ Step 10 ✅ Cross-check everything with trusted sources.
 - ❌ Hidden information that was never stored
 
 ## Let's Get started With the hands-on real Project.
+First Take the image on which you you want to perform 
+## Finding MetaData with Exiftool
+- ExifTool is developed by Phil Harvey. It is a platform-independent Perl library coupled with a full-featured command-line implementation for reading, writing and manipulating the metadata across a broad range of files, particularly the JPEG images. This metadata may comprise a bunch of information such as the camera make, file type, permissions, file size etc., though it further offers more details about the photograph, like the exposure, the shutter speed and whether the flash fired or not. ExifTool probably gives us the simplest way to extract metadata from files, as it is free and an open-source program.
+- Installation of Exiftool : git clone https://github.com/exiftool/exiftool.git
+- Install necessary packets : sudo apt-get install libimage-exiftool-perl
+
+- <img width="907" height="843" alt="Screenshot_20260712_232125" src="https://github.com/user-attachments/assets/93620cab-31b0-43e0-8078-c27372eab0b6" />
+
+- Use the ExifTool : exiftool  <filename>
+<img width="1524" height="1014" alt="Osint1" src="https://github.com/user-attachments/assets/f4ff330f-0670-49e8-8f0a-e188eccdbb5c" />
+
+- Now With this command Find exact GPS Cordinates : exiftool  <filename> | grep GPS
+
+  <img width="1524" height="1014" alt="Osint2" src="https://github.com/user-attachments/assets/48135118-f8ff-4fa0-b21e-f72b61e2372b" />
+
+
