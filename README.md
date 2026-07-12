@@ -297,8 +297,25 @@ Best for: Journalists and social media analysts verifying viral videos or suspic
 <img width="1746" height="1014" alt="Osint3" src="https://github.com/user-attachments/assets/a3d7ccc7-288f-4afb-b710-052972f8d4e3" />
  - Like that analyze the Forensics, Metadata, Magnifier tab and get the result.
 
-- 3. OCR Optical Characteer Recognition:
+## 3. OCR Optical Characteer Recognition:
 - use the OCR tab for this IN InVID for the character recognition details
 
 <img width="1876" height="1014" alt="Osint4" src="https://github.com/user-attachments/assets/9076d832-74b6-46c2-9248-eb459d4026cc" />
+
+## 4. Image Forensics: and all other remaning data:
+ - use the FotoForensics.com For the rest of data collection process and rest information this tool will give very muchh of information which needed I cant show all output screenshots because it will displays myy private information but this tool was very helpfull and after giving you photo
+ - hit enter and explore all the Feature which was given.
+
+   <img width="1876" height="1014" alt="Osint5" src="https://github.com/user-attachments/assets/93bb3847-4895-40f3-a8de-129bec434e78" />
+
+
+- Now Every detailed Informationa and Question was Covered in this repo and analyze properly and read properly for better understanding
+
+### Conclusion
+
+Image Forensics is an essential field in digital security that helps detect manipulated, edited, or forged images. By applying forensic techniques such as metadata analysis, error level analysis (ELA), noise pattern examination, and copy-move detection, investigators can verify the authenticity and integrity of digital images. This project demonstrates the importance of image forensic methods in identifying image tampering and promoting trust in digital media.
+
+### Caution
+
+Disclaimer: This project is intended solely for educational and research purposes. The forensic techniques implemented may not guarantee 100% accuracy, as image compression, resizing, and advanced editing methods can affect analysis results. Users should validate findings using multiple forensic methods before making any legal, professional, or investigative decisions. The authors are not responsible for any misuse of this project or its results.
 
