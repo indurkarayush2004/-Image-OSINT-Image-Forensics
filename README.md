@@ -2,6 +2,8 @@
 
 <img width="1536" height="1024" alt="imageosint" src="https://github.com/user-attachments/assets/fd709d47-e2d1-4d33-ad48-b3aa986d3e61" />
 
+## Caution: This Repo is For only educational Purposes and use it only for the Study purpose, Dont try this at anyones Personal data that was harmfull and illegal, i can do  because i am certified Ethical Hacker.
+
 ### Introduction to Image Forensics
 
 - Image Forensics is the process of examining digital images to determine their authenticity, origin, and any modifications they may have undergone. It combines techniques from computer vision, digital forensics, and Open Source Intelligence (OSINT) to extract valuable information hidden within or associated with an image.
@@ -241,7 +243,12 @@ Step 10 ✅ Cross-check everything with trusted sources.
 - ❌ Hidden information that was never stored
 
 ## Let's Get started With the hands-on real Project.
-First Take the image on which you you want to perform 
+- First Take the image on which you you want to perform 
+- This Was the Image on which i am using the whole image Forensics
+
+<img width="4096" height="1864" alt="OsintDemo" src="https://github.com/user-attachments/assets/e27b3eb4-f8f7-4760-84ea-15282e607403" />
+
+- 
 ## Finding MetaData with Exiftool
 - ExifTool is developed by Phil Harvey. It is a platform-independent Perl library coupled with a full-featured command-line implementation for reading, writing and manipulating the metadata across a broad range of files, particularly the JPEG images. This metadata may comprise a bunch of information such as the camera make, file type, permissions, file size etc., though it further offers more details about the photograph, like the exposure, the shutter speed and whether the flash fired or not. ExifTool probably gives us the simplest way to extract metadata from files, as it is free and an open-source program.
 - Installation of Exiftool : git clone https://github.com/exiftool/exiftool.git
@@ -255,5 +262,14 @@ First Take the image on which you you want to perform
 - Now With this command Find exact GPS Cordinates : exiftool  <filename> | grep GPS
 
   <img width="1524" height="1014" alt="Osint2" src="https://github.com/user-attachments/assets/48135118-f8ff-4fa0-b21e-f72b61e2372b" />
+
+- Now using Those commands we found those Questions : Date & Time photo was taken
+Camera/Mobile model
+Lens information
+GPS Location (if enabled)
+Image Resolution
+ISO, Aperture, Shutter Speed
+Software used for editing
+
 
 
