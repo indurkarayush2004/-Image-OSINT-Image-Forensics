@@ -296,4 +296,9 @@ Best for: Journalists and social media analysts verifying viral videos or suspic
   
 <img width="1746" height="1014" alt="Osint3" src="https://github.com/user-attachments/assets/a3d7ccc7-288f-4afb-b710-052972f8d4e3" />
  - Like that analyze the Forensics, Metadata, Magnifier tab and get the result.
-   
+
+- 3. OCR Optical Characteer Recognition:
+- use the OCR tab for this IN InVID for the character recognition details
+
+<img width="1876" height="1014" alt="Osint4" src="https://github.com/user-attachments/assets/9076d832-74b6-46c2-9248-eb459d4026cc" />
+
