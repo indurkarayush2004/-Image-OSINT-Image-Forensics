@@ -2,7 +2,7 @@
 
 <img width="1536" height="1024" alt="imageosint" src="https://github.com/user-attachments/assets/fd709d47-e2d1-4d33-ad48-b3aa986d3e61" />
 
-## Caution: This Repo is For only educational Purposes and use it only for the Study purpose, Dont try this at anyones Personal data that was harmfull and illegal, i can do  because i am certified Ethical Hacker.
+## ⚠️Caution: This Repo is For only educational Purposes and use it only for the Study purpose, Dont try this at anyones Personal data that was harmfull and illegal, i can do  because i am certified Ethical Hacker.
 
 ### Introduction to Image Forensics
 
@@ -14,7 +14,7 @@
 
 - This repository is designed to provide practical knowledge, tools, and techniques for learning image forensic analysis in an ethical and responsible manner.
 
-## The Very Basic Thing to Know abou any image for OSINT, important question to Know about image
+## The Very Basic Thing to Know about any image for OSINT, important question to Know about image
 
 - ✅ When was the photo taken? (Date & Time)
 - ✅ Which mobile phone or camera was used to take it?
@@ -249,7 +249,7 @@ Step 10 ✅ Cross-check everything with trusted sources.
 <img width="4096" height="1864" alt="OsintDemo" src="https://github.com/user-attachments/assets/e27b3eb4-f8f7-4760-84ea-15282e607403" />
 
 - 
-## Finding MetaData with Exiftool
+## 1. Finding MetaData with Exiftool
 - ExifTool is developed by Phil Harvey. It is a platform-independent Perl library coupled with a full-featured command-line implementation for reading, writing and manipulating the metadata across a broad range of files, particularly the JPEG images. This metadata may comprise a bunch of information such as the camera make, file type, permissions, file size etc., though it further offers more details about the photograph, like the exposure, the shutter speed and whether the flash fired or not. ExifTool probably gives us the simplest way to extract metadata from files, as it is free and an open-source program.
 - Installation of Exiftool : git clone https://github.com/exiftool/exiftool.git
 - Install necessary packets : sudo apt-get install libimage-exiftool-perl
@@ -271,5 +271,29 @@ Image Resolution
 ISO, Aperture, Shutter Speed
 Software used for editing
 
+## 2. Reverse Image Search: with InVID & WeVerify Plugin:
 
+Purpose:
 
+Find where the image was uploaded.
+Original source.
+Similar images.
+Fake or edited image detection.
+Website: https://www.invid-project.eu/tools-and-services/invid-verification-plugin/
+
+A browser extension designed for video and image verification, InVID & WeVerify allows analysts to:
+
+Extract keyframes from videos
+Perform reverse image searches
+Analyze metadata and social network footprints
+Check image integrity with forensic filters
+Best for: Journalists and social media analysts verifying viral videos or suspicious content.
+
+- Process: Click on that link
+- Add InVID to you chrome Extension and open it
+- Click on image Forensics Section Give your Image and then Hit Submit.
+- Now the Magic Will Happens you will gonna se the all data about image
+  
+<img width="1746" height="1014" alt="Osint3" src="https://github.com/user-attachments/assets/a3d7ccc7-288f-4afb-b710-052972f8d4e3" />
+ - Like that analyze the Forensics, Metadata, Magnifier tab and get the result.
+   
